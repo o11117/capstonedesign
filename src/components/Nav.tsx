@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
 
 const Nav = () => {
-  return <div>Nav</div>;
-}
+  // React의 Fragment로 wrapper 추가
+  return (
+    <React.Fragment>
+      <nav>네비게이션</nav>
+    </React.Fragment>
+  );
+};
 
-export  default Nav;
+export default Nav;
